@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    width:400px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    width:65%;
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:10px 0;
+    padding:10px;
+    background:#eee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.edit{
+    background:orange;
+    color:white;
+    border:none;
+    margin-right:5px;
+}
+
+.delete{
+    background:red;
+    color:white;
+    border:none;
+}
