@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#4ce998;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:rgb(202, 216, 0);
+    padding:30px;
+    width:400px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgb(155, 147, 147);
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:5px 0;
+}
+
+button{
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:#1142f5;
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+}
